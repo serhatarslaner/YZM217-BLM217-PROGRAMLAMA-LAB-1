@@ -174,8 +174,8 @@ while True:
 
 
     elif secim == 4:
-        liste1=input("Istediginiz listeyi virgul birakarak giriniz: ")
-        liste2=input("Carpim yapilacak olan ikinci listeyi virgul birakarak giriniz: ")
+        liste1=input("Matris1'i  örnekte gösterildiği gibi  giriniz (örnek [[1,2,3],[4,5,6]]): ")
+        liste2=input("Matris2'yi örnekte gösterildiği gibi giriniz (örnek[[1,2],[3,4],[5,6]]): ")
         liste1 = ast.literal_eval(liste1)
         liste2 = ast.literal_eval(liste2)
         print(matris_carpimi(liste1,liste2))
